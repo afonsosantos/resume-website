@@ -1,0 +1,160 @@
+Contato
+afonso.faisca1@gmail.com
+
+www.linkedin.com/in/
+afonsosantos53 (LinkedIn)
+afonsosantos.me (Personal)
+
+Principais competências
+API da OpenAI
+CMS
+DeepSeek
+
+Languages
+Português (Native or Bilingual)
+Inglês (Professional Working)
+
+Certifications
+Microsoft Certified: Security,
+Compliance, and Identity
+Fundamentals
+Pre Security Certificate
+Microsoft Certified: Azure
+Fundamentals
+LFS158: Introduction to Kubernetes
+
+Afonso Santos
+
+Full Stack Developer | Building Scalable Web Solutions at Setwin |
+Available for Freelance Work
+Leiria, Leiria, Portugal
+
+Resumo
+As a Full Stack Developer at Setwin, I develop dynamic and scalable
+web applications with Vue.js, Nuxt, Laravel and Django. I integrate
+complex systems with robust data pipelines using Python, Celery
+and Redis, with optimized deploys in Kubernetes environments.
+I have experience customizing ERP CEGID Primavera and
+maintaining WordPress platforms, delivering reliable solutions
+adapted to each client.
+With a degree in Computer Technology from the Polytechnic Institute
+of Leiria, I'm passionate about creating efficient solutions, learning
+continuously and collaborating on innovative projects that create real
+impact.
+
+Experiência
+Setwin
+Developer
+
+junho de 2023 - Present (2 anos 10 meses)
+Marinha Grande, Leiria, Portugal
+- Maintenance of Kubernetes clusters for QA/development and production
+environments, hosting 10+ applications, leveraging Argo CD, Helm,
+Kustomize, and other ecosystem tools for GitOps-based continuous
+deployment. Also responsible for Kubernetes training and upskilling of the
+development team.
+- Developing dynamic web applications using Vue.js and Nuxt for the frontend and Laravel (PHP) and Django (Python) for the back-end, adhering to best
+development practices and clean code standards.
+- Development of a data pipeline application using Python, Celery, and Redis
+for large-scale data processing, ERP and website data synchronization,
+and custom system integrations. Deployed with Kubernetes to ensure high
+availability and ease of updates.
+- Development of custom code and views for the CEGID Primavera ERP.
+Page 1 of 4
+
+- Maintaining and enhancing WordPress websites, including the development
+of custom themes and plugins tailored to specific client needs.
+- Collaborating with cross-functional teams to ensure seamless integration and
+delivery of high-quality solutions.
+- Optimizing application performance and ensuring scalability to handle
+increasing user demands.
+- Conducting thorough testing and debugging to maintain robust and secure
+applications.
+
+Cooperativa Alma Maior, CRL
+Cooperative Member and Webmaster
+
+agosto de 2022 - Present (3 anos 8 meses)
+Rio Maior, Portugal
+- Maintaining and enhancing WordPress websites, implementing custom
+themes and plugins to meet client-specific requirements.
+- Development of a custom Django app for managing and promoting local
+events.
+
+Sociedade Portuguesa de Medicina Chinesa
+Direction Assistant and Webmaster
+julho de 2021 - Present (4 anos 9 meses)
+Rio Maior, Portugal
+
+- Maintaining and enhancing WordPress websites, implementing custom
+themes and plugins to meet client-specific requirements.
+- Research, implementation and maintenance of a custom plataform for
+managing the association data.
+
+Rio Maior Jornal
+Webmaster
+
+julho de 2021 - Present (4 anos 9 meses)
+Rio Maior, Santarém, Portugal
+- Maintaining and enhancing WordPress websites, implementing custom
+themes and plugins to meet client-specific requirements.
+- Writing news articles for the newspaper (paper and online edition).
+
+Deloitte
+Consultor CBO (Core Business Operations) - FS (Financial Services)
+outubro de 2021 - junho de 2023 (1 ano 9 meses)
+Leiria, Portugal
+
+Page 2 of 4
+
+- Consultant for the CBO - FS (Core Business Operations - Financial Services)
+area for Deloitte Portugal, associated with the BrightStart program (admission
+to TeSP course - 2021/2023 and participation in internship - 2022/2023).
+- Development and implementation of solutions using the Guidewire v10
+platform (PolicyCenter) and the Gosu programming language for the North
+American P&C insurance company.
+- Use of various platforms, such as Jenkins, Jira, Confluence, among others.
+- Integration in an Agile work team (Scrum methodology).
+
+Geartrack
+React Developer
+
+agosto de 2020 - dezembro de 2022 (2 anos 5 meses)
+Portugal
+- Development of the currently in production version of the application, using
+React, Express, Bootstrap and microservices.
+
+Clínica de Medicina Tradicional Chinesa, Tian Di Ren
+Estágio
+maio de 2021 - agosto de 2021 (4 meses)
+Rio Maior, Santarém, Portugal
+
+Estágio realizado na frequência do Curso Profissional, durante o Ensino
+Secundário, na área de desenvolvimento Web e manutenção de presença
+online, com recurso à plataforma WordPress.
+
+Câmara Municipal de Rio Maior
+Estágio
+
+novembro de 2020 - janeiro de 2021 (3 meses)
+Rio Maior, Santarém, Portugal
+Estágio realizado na frequência do Curso Profissional, durante o Ensino
+Secundário.
+Responsável por tarefas de apoio ao utilizador final (funcionários) e
+configuração de hardware e software.
+Personalização de aplicação Web interna para gestão de parque informático,
+com recurso à framework Laravel e JavaScript.
+
+Formação acadêmica
+Polytechnic of Leiria
+Técnico Superior Profissional, Tecnologias Informáticas · (setembro de
+2021 - junho de 2023)
+Page 3 of 4
+
+Escola Secundária Dr. Augusto César da Silva Ferreira
+Técnico de Informática - Sistemas, Informática · (setembro de 2018 - julho de
+2021)
+
+Page 4 of 4
+
+
