@@ -12,10 +12,10 @@
 
   # Don't rewrite if it's a real file or directory
   RewriteCond %{REQUEST_FILENAME} !-f
-  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{DOCUMENT_ROOT}/src%{REQUEST_URI} -f
 
-  # Serve static files from src folder
-  RewriteRule ^(css|js|img|doc)/(.*)$ src/$1/$2 [L]
+  # Serve static files from src folder even if hosting panel creates placeholder dirs
+  RewriteRule ^(css|js|img|doc)/ src%{REQUEST_URI} [L]
 
   # Rewrite requests to src folder HTML files
   RewriteCond %{DOCUMENT_ROOT}/src/%{REQUEST_URI}.html -f
