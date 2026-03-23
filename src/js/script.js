@@ -67,3 +67,13 @@ window.addEventListener("scroll", () => {
     ticking = true;
   }
 });
+
+const tickerTrack = document.querySelector(".ticker__track");
+
+if (tickerTrack && tickerTrack.dataset.looped !== "true") {
+  const items = Array.from(tickerTrack.children);
+  items.forEach((item) => {
+    tickerTrack.appendChild(item.cloneNode(true));
+  });
+  tickerTrack.dataset.looped = "true";
+}

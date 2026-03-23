@@ -112,6 +112,20 @@ main {
   gap: 1.5rem;
 }
 
+.hero--minimal {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 2rem;
+}
+
+.hero__intro {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+}
+
 .hero__badge {
   text-transform: uppercase;
   letter-spacing: 0.4em;
@@ -156,6 +170,10 @@ h1 span {
   align-items: center;
 }
 
+.hero__cta--minimal {
+  justify-content: center;
+}
+
 .btn {
   display: inline-flex;
   align-items: center;
@@ -189,6 +207,8 @@ h1 span {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
   gap: 1rem;
+  width: 100%;
+  max-width: 720px;
 }
 
 .stat-label {
@@ -220,6 +240,40 @@ h1 span {
   overflow: hidden;
 }
 
+.resume-dual {
+  display: inline-flex;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 999px;
+  overflow: hidden;
+  background: rgba(5, 5, 15, 0.6);
+  backdrop-filter: blur(10px);
+  align-items: stretch;
+}
+
+.resume-dual__item {
+  flex: 1;
+  border-radius: 0;
+  border: none;
+  gap: 0.4rem;
+  min-width: 140px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0.85rem 2.8rem;
+  letter-spacing: 0.2em;
+}
+
+.resume-dual__item small {
+  letter-spacing: 0.2em;
+  font-size: 0.7rem;
+  color: var(--subtle);
+  margin-left: 0.5rem;
+}
+
+.resume-dual__item + .resume-dual__item {
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+}
+
 .panel {
   border-top: 1px solid var(--grid-line);
   padding: 4rem 0;
@@ -227,6 +281,12 @@ h1 span {
   grid-template-columns: 220px 1fr;
   gap: 2.5rem;
   position: relative;
+}
+
+.panel__content {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
 }
 
 .panel__label {
@@ -285,6 +345,31 @@ h1 span {
   opacity: 1;
 }
 
+.skills-categories {
+  margin-top: 2.5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.2rem;
+}
+
+.skills-category {
+  background: var(--card);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 1rem;
+  padding: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+  min-height: 140px;
+}
+
+.skills-category__content {
+  margin: 0;
+  color: var(--text);
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
 .panel--grid h3 {
   margin: 0 0 0.5rem;
   font-size: 1.4rem;
@@ -341,6 +426,32 @@ h1 span {
   font-size: 1.3rem;
 }
 
+.project-card {
+  cursor: pointer;
+  transition: transform 0.3s ease, border-color 0.3s ease;
+  position: relative;
+}
+
+.project-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(255, 255, 255, 0.18);
+}
+
+.project-card__link {
+  display: inline-flex;
+  gap: 0.4rem;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+.project-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
 .panel--marquee {
   overflow: hidden;
 }
@@ -348,19 +459,21 @@ h1 span {
 .ticker {
   border: 1px solid var(--grid-line);
   border-radius: 999px;
-  padding: 0.9rem 0;
+  padding: 1.4rem 0;
   position: relative;
+  min-height: 64px;
 }
 
 .ticker__track {
   display: flex;
   gap: 3rem;
-  animation: ticker 25s linear infinite;
+  animation: ticker 45s linear infinite;
   will-change: transform;
   text-transform: uppercase;
   letter-spacing: 0.3em;
   font-size: 0.85rem;
   color: var(--subtle);
+  width: max-content;
 }
 
 @keyframes ticker {
@@ -474,6 +587,10 @@ h1 span {
     width: 100%;
   }
 
+  .resume-dual {
+    width: 100%;
+  }
+
   .panel--grid article {
     padding: 1.2rem;
   }
@@ -502,4 +619,13 @@ h1 span {
     opacity: 1;
     transform: none;
   }
+}
+.project-card__link::after {
+  content: "↗";
+  font-size: 0.85rem;
+}
+.project-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
 }
