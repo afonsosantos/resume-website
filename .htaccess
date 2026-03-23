@@ -15,7 +15,7 @@
   RewriteCond %{REQUEST_FILENAME} !-d
 
   # Serve static files from src folder
-  RewriteRule ^(css|js|images)/(.*)$ src/$1/$2 [L]
+  RewriteRule ^(css|js|images|docs)/(.*)$ src/$1/$2 [L]
 
   # Rewrite requests to src folder HTML files
   RewriteCond %{DOCUMENT_ROOT}/src/%{REQUEST_URI}.html -f
